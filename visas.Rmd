@@ -1,0 +1,17 @@
+---
+title: "457 Visas issued in Victoria"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Visa 457
+
+Number of 457 visas issued by year in Victoria
+
+```{r}
+visas1 <- read.csv("visas.csv")
+plot(visas1, type="o")
+```
+
+
